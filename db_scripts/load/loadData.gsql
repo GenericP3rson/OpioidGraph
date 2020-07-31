@@ -1,0 +1,18 @@
+drop job loadData
+create loading job loadData for graph @graphname@ {
+    define filename f1;
+    load f1
+    to vertex _NPI values($0),
+    to vertex _Gender values($1),
+    to vertex _State values($2),
+    to vertex _Credentials values($3),
+    to vertex _Specialty values($4),
+    to vertex _Opioid_Perscriber values($255),
+    to edge _NPI_GENDER values($0, $1),
+    to edge _NPI_STATE values($0, $2),
+    to edge _NPI_CRED values($0, $3),
+    to edge _CRED_SPEC values($3, $4),
+    to edge _NPI_OPIOID values($0, $255)
+    
+    using header="false", separator=",";
+}

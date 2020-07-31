@@ -1,0 +1,177 @@
+I@20200731 07:32:31.290  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:34:35.045  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:34:48.985  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+E@20200731 07:34:49.702 00000000074 (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_6_0.client.Client.handleServerResponse(Client.java:253)
+	at com.tigergraph.v2_6_0.client.Client.login(Client.java:247)
+	at com.tigergraph.v2_6_0.client.Client.start(Client.java:156)
+	at com.tigergraph.v2_6_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:29)
+I@20200731 07:34:49.713  (Util.java:102) Client commit: 291680f0b003eb89da1267c967728a2d4022a89e
+E@20200731 07:34:49.956  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_2.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_2.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_2.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_2.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:42)
+I@20200731 07:34:49.964  (Util.java:102) Client commit: bc49e20553e9e68212652f6c565cb96c068fab9e
+E@20200731 07:34:50.178  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:55)
+I@20200731 07:34:50.184  (Util.java:102) Client commit: 47229e675f792374d4525afe6ea10898decc2e44
+E@20200731 07:34:50.371  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_1.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_1.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_1.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_1.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:68)
+I@20200731 07:34:50.380  (Util.java:102) Client commit: f6b4892ad3be8e805d49ffd05ee2bc7e7be10dff
+E@20200731 07:34:50.564  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:81)
+I@20200731 07:34:57.292  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:35:09.083  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+E@20200731 07:35:09.785 00000000081 (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_6_0.client.Client.handleServerResponse(Client.java:253)
+	at com.tigergraph.v2_6_0.client.Client.login(Client.java:247)
+	at com.tigergraph.v2_6_0.client.Client.start(Client.java:156)
+	at com.tigergraph.v2_6_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:29)
+I@20200731 07:35:09.824  (Util.java:102) Client commit: 291680f0b003eb89da1267c967728a2d4022a89e
+E@20200731 07:35:10.025  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_2.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_2.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_2.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_2.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:42)
+I@20200731 07:35:10.034  (Util.java:102) Client commit: bc49e20553e9e68212652f6c565cb96c068fab9e
+E@20200731 07:35:10.280  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:55)
+I@20200731 07:35:10.287  (Util.java:102) Client commit: 47229e675f792374d4525afe6ea10898decc2e44
+E@20200731 07:35:10.465  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_1.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_1.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_1.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_1.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:68)
+I@20200731 07:35:10.472  (Util.java:102) Client commit: f6b4892ad3be8e805d49ffd05ee2bc7e7be10dff
+E@20200731 07:35:10.666  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:81)
+I@20200731 07:35:48.066  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+E@20200731 07:35:48.696 00000000087 (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_6_0.client.Client.handleServerResponse(Client.java:253)
+	at com.tigergraph.v2_6_0.client.Client.login(Client.java:247)
+	at com.tigergraph.v2_6_0.client.Client.start(Client.java:156)
+	at com.tigergraph.v2_6_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:29)
+I@20200731 07:35:48.704  (Util.java:102) Client commit: 291680f0b003eb89da1267c967728a2d4022a89e
+E@20200731 07:35:48.926  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_2.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_2.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_2.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_2.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:42)
+I@20200731 07:35:48.932  (Util.java:102) Client commit: bc49e20553e9e68212652f6c565cb96c068fab9e
+E@20200731 07:35:49.125  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:55)
+I@20200731 07:35:49.136  (Util.java:102) Client commit: 47229e675f792374d4525afe6ea10898decc2e44
+E@20200731 07:35:49.328  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_1.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_1.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_1.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_1.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:68)
+I@20200731 07:35:49.340  (Util.java:102) Client commit: f6b4892ad3be8e805d49ffd05ee2bc7e7be10dff
+E@20200731 07:35:49.531  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:81)
+I@20200731 07:36:41.603  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:37:29.555  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+E@20200731 07:37:30.274 00000000098 (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_6_0.client.Client.handleServerResponse(Client.java:253)
+	at com.tigergraph.v2_6_0.client.Client.login(Client.java:247)
+	at com.tigergraph.v2_6_0.client.Client.start(Client.java:156)
+	at com.tigergraph.v2_6_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:29)
+I@20200731 07:37:30.285  (Util.java:102) Client commit: 291680f0b003eb89da1267c967728a2d4022a89e
+E@20200731 07:37:30.480  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_2.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_2.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_2.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_2.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:42)
+I@20200731 07:37:30.486  (Util.java:102) Client commit: bc49e20553e9e68212652f6c565cb96c068fab9e
+E@20200731 07:37:30.679  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_5_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_5_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_5_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_5_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:55)
+I@20200731 07:37:30.689  (Util.java:102) Client commit: 47229e675f792374d4525afe6ea10898decc2e44
+E@20200731 07:37:30.909  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_1.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_1.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_1.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_1.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:68)
+I@20200731 07:37:30.919  (Util.java:102) Client commit: f6b4892ad3be8e805d49ffd05ee2bc7e7be10dff
+E@20200731 07:37:31.293  (Driver.java:54) null
+java.lang.SecurityException
+	at com.tigergraph.v2_4_0.client.Client.handleServerResponse(Client.java:243)
+	at com.tigergraph.v2_4_0.client.Client.login(Client.java:237)
+	at com.tigergraph.v2_4_0.client.Client.start(Client.java:157)
+	at com.tigergraph.v2_4_0.client.Driver.main(Driver.java:52)
+	at com.tigergraph.client.Driver.main(Driver.java:81)
+I@20200731 07:37:56.853  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:39:21.451  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:40:05.176  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:40:20.707  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:41:05.145  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 07:58:40.357  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 08:15:59.630  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 08:17:10.026  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 08:23:42.471  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 08:24:24.701  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 08:26:05.576  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 08:26:38.470  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4
+I@20200731 08:27:27.038  (Util.java:102) Client commit: 6fe2f50ab9dc8457c4405094080186208bd2edc4

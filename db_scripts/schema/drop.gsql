@@ -1,0 +1,26 @@
+DROP VERTEX NPI(PRIMARY_ID npi_id STRING) with primary_id_as_attribute="true"
+
+DROP VERTEX Gender(PRIMARY_ID gender STRING) with primary_id_as_attribute="true"
+
+DROP VERTEX State(PRIMARY_ID state STRING) with primary_id_as_attribute="true"
+
+DROP VERTEX Credentials(PRIMARY_ID cred STRING) with primary_id_as_attribute="true"
+
+DROP VERTEX Specialty(PRIMARY_ID spec STRING) with primary_id_as_attribute="true"
+
+DROP VERTEX Opioid_Perscriber(PRIMARY_ID perscribes INT) with primary_id_as_attribute="true"
+
+
+
+DROP UNDIRECTED EDGE NPI_GENDER(FROM NPI, To Gender)
+
+DROP UNDIRECTED EDGE NPI_STATE(FROM NPI, To State)
+
+DROP UNDIRECTED EDGE NPI_CRED(FROM NPI, To State)
+
+DROP UNDIRECTED EDGE CRED_SPEC(FROM Credentials, To Specialty)
+
+DROP UNDIRECTED EDGE NPI_OPIOID(FROM NPI, To Opioid_Perscriber)
+
+DROP GRAPH @graphname@(NPI, Gender, State, Credentials, Specialty, Opioid_Perscriber,
+NPI_GENDER, NPI_STATE, NPI_CRED, CRED_SPEC, NPI_OPIOID)
