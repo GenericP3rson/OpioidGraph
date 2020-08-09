@@ -1,1 +1,3 @@
-# OpiodGraph
+# OpioidGraph
+
+Modelling opioid data
