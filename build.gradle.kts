@@ -88,6 +88,13 @@ tasks {
         description = "Runs gsql to create a schema"
     }
 
+    register<GsqlTask>("createBigSchema") {
+        scriptPath = "schema/bigSchema.gsql"
+        useGlobal = true
+        group = schemaGroup
+        description = "Runs gsql to create a schema"
+    }
+
     register<GsqlTask>("dropSchema") {
         scriptPath = "schema/drop.gsql"
         group = schemaGroup
@@ -140,6 +147,31 @@ tasks {
             httpConfig.request.uri.setQuery(
             mapOf(
             "tag" to "loadData",
+            "filename" to "f1",
+            "sep" to ",",
+            "eol" to "\n"
+            )
+            )
+            httpConfig.request.setContentType("text/csv")
+            val stream = File("data/prescriber-info.csv").inputStream()
+            httpConfig.request.setBody(stream)
+        }
+    }
+
+    /* You'll add your data loads and query creations here! */
+    register<GsqlTask>("createLoadBigData"){
+        scriptPath = "load/loadBigData.gsql"
+        group = loadingGroup
+        description = "Loads our data"
+    }
+    register<HttpTask>("loadBigData") {
+        group = loadingGroup
+        description = "Load data via the REST++ endpoint"
+        post { httpConfig ->
+            httpConfig.request.uri.setPath("/ddl/${gGraphName}")
+            httpConfig.request.uri.setQuery(
+            mapOf(
+            "tag" to "loadBigData",
             "filename" to "f1",
             "sep" to ",",
             "eol" to "\n"
