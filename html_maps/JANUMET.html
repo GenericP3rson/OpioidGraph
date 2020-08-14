@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ab8ca5f8903745458251e4f99617d376 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ab8ca5f8903745458251e4f99617d376" ></div>
+        
+</body>
+<script>    
+    
+            var map_ab8ca5f8903745458251e4f99617d376 = L.map(
+                "map_ab8ca5f8903745458251e4f99617d376",
+                {
+                    center: [40.693943, -73.98588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    defaultZoomStart: -5,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_73d71c7901f049a685dbb8079e828b2b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab8ca5f8903745458251e4f99617d376);
+        
+    
+            var marker_406a78ef4c34469f9399f6ccd3fe7d06 = L.marker(
+                [40.2099583, -105.017322],
+                {}
+            ).addTo(map_ab8ca5f8903745458251e4f99617d376);
+        
+    
+        var popup_6d2adf95cc3a44bbafa09583a9117478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eb709fc97af4f8489f5bafa6948dae4 = $(`<div id="html_5eb709fc97af4f8489f5bafa6948dae4" style="width: 100.0%; height: 100.0%;">ROBERT NOUHAN: 13</div>`)[0];
+            popup_6d2adf95cc3a44bbafa09583a9117478.setContent(html_5eb709fc97af4f8489f5bafa6948dae4);
+        
+
+        marker_406a78ef4c34469f9399f6ccd3fe7d06.bindPopup(popup_6d2adf95cc3a44bbafa09583a9117478)
+        ;
+
+        
+    
+    
+            var marker_23e7d921b6f84b83aeb1e308c0fee136 = L.marker(
+                [43.171916, -89.2467875],
+                {}
+            ).addTo(map_ab8ca5f8903745458251e4f99617d376);
+        
+    
+        var popup_b922148716ce4ea8b939174119885c4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4341125a6c434040be423a589e40f085 = $(`<div id="html_4341125a6c434040be423a589e40f085" style="width: 100.0%; height: 100.0%;">JUDY RAWLS: 28</div>`)[0];
+            popup_b922148716ce4ea8b939174119885c4e.setContent(html_4341125a6c434040be423a589e40f085);
+        
+
+        marker_23e7d921b6f84b83aeb1e308c0fee136.bindPopup(popup_b922148716ce4ea8b939174119885c4e)
+        ;
+
+        
+    
+</script>

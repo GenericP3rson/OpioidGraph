@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_61b27364570f4358a181d4034d4e3abc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_61b27364570f4358a181d4034d4e3abc" ></div>
+        
+</body>
+<script>    
+    
+            var map_61b27364570f4358a181d4034d4e3abc = L.map(
+                "map_61b27364570f4358a181d4034d4e3abc",
+                {
+                    center: [40.693943, -73.98588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    defaultZoomStart: -5,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_66cd4b35fee846e294aa5baa5645b469 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_61b27364570f4358a181d4034d4e3abc);
+        
+    
+            var marker_a3c21710e0494221a2102d23c61d4c6d = L.marker(
+                [34.539484, -85.598721],
+                {}
+            ).addTo(map_61b27364570f4358a181d4034d4e3abc);
+        
+    
+        var popup_71ab99fcd44d4f70937aa135c740a70d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5095ecfc112445d8d72cda0cb119f73 = $(`<div id="html_c5095ecfc112445d8d72cda0cb119f73" style="width: 100.0%; height: 100.0%;">JOLEEN GORMAN: 15</div>`)[0];
+            popup_71ab99fcd44d4f70937aa135c740a70d.setContent(html_c5095ecfc112445d8d72cda0cb119f73);
+        
+
+        marker_a3c21710e0494221a2102d23c61d4c6d.bindPopup(popup_71ab99fcd44d4f70937aa135c740a70d)
+        ;
+
+        
+    
+    
+            var marker_6afda212b66547fbaab25dbf17e96fae = L.marker(
+                [39.638347, -119.6497513],
+                {}
+            ).addTo(map_61b27364570f4358a181d4034d4e3abc);
+        
+    
+        var popup_7dcab2aecd884b4ebbaaf7b65b4a0b03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cf4252a0e4a49f9bc34f83fcd774e5e = $(`<div id="html_0cf4252a0e4a49f9bc34f83fcd774e5e" style="width: 100.0%; height: 100.0%;">CHRISTY STEVENS: 61</div>`)[0];
+            popup_7dcab2aecd884b4ebbaaf7b65b4a0b03.setContent(html_0cf4252a0e4a49f9bc34f83fcd774e5e);
+        
+
+        marker_6afda212b66547fbaab25dbf17e96fae.bindPopup(popup_7dcab2aecd884b4ebbaaf7b65b4a0b03)
+        ;
+
+        
+    
+</script>

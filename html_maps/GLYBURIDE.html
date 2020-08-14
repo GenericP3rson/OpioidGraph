@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_81356e222c9c46f49a1b900348d71570 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_81356e222c9c46f49a1b900348d71570" ></div>
+        
+</body>
+<script>    
+    
+            var map_81356e222c9c46f49a1b900348d71570 = L.map(
+                "map_81356e222c9c46f49a1b900348d71570",
+                {
+                    center: [40.693943, -73.98588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    defaultZoomStart: -5,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9e2eef7b6ba14e87b51cfbf7e2961f15 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_81356e222c9c46f49a1b900348d71570);
+        
+    
+            var marker_be1b16e288e34efd81a52a7ca34ff51e = L.marker(
+                [42.3505628, -91.2375022],
+                {}
+            ).addTo(map_81356e222c9c46f49a1b900348d71570);
+        
+    
+        var popup_bdd5464f591c4c7aa2778e0804e3b199 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7208cd3cf6e2430a99c8f8f30194fd8d = $(`<div id="html_7208cd3cf6e2430a99c8f8f30194fd8d" style="width: 100.0%; height: 100.0%;">FRANCIS MILLIGAN: 25</div>`)[0];
+            popup_bdd5464f591c4c7aa2778e0804e3b199.setContent(html_7208cd3cf6e2430a99c8f8f30194fd8d);
+        
+
+        marker_be1b16e288e34efd81a52a7ca34ff51e.bindPopup(popup_bdd5464f591c4c7aa2778e0804e3b199)
+        ;
+
+        
+    
+    
+            var marker_7312c809ec2340e89863f3ed3bd6c7e8 = L.marker(
+                [33.550395, -85.932481],
+                {}
+            ).addTo(map_81356e222c9c46f49a1b900348d71570);
+        
+    
+        var popup_aa600378973a43f78d34dfeb3ff299a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0628ff8e77844c2b25bff28e7a0c4bb = $(`<div id="html_e0628ff8e77844c2b25bff28e7a0c4bb" style="width: 100.0%; height: 100.0%;">DEANNA SPEIGHT: 14</div>`)[0];
+            popup_aa600378973a43f78d34dfeb3ff299a2.setContent(html_e0628ff8e77844c2b25bff28e7a0c4bb);
+        
+
+        marker_7312c809ec2340e89863f3ed3bd6c7e8.bindPopup(popup_aa600378973a43f78d34dfeb3ff299a2)
+        ;
+
+        
+    
+</script>

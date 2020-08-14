@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b04de639d98e457d91a57321d38a31ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b04de639d98e457d91a57321d38a31ee" ></div>
+        
+</body>
+<script>    
+    
+            var map_b04de639d98e457d91a57321d38a31ee = L.map(
+                "map_b04de639d98e457d91a57321d38a31ee",
+                {
+                    center: [40.693943, -73.98588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    defaultZoomStart: -5,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d66031021b64420b568658e25ae2428 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b04de639d98e457d91a57321d38a31ee);
+        
+    
+            var marker_7967bb87088448dd90ce084ef6a728d9 = L.marker(
+                [51.5004939, -0.1264898],
+                {}
+            ).addTo(map_b04de639d98e457d91a57321d38a31ee);
+        
+    
+        var popup_463cea59b47c4fae83ed1cc130c8dc89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90df3ef75dd3467789d89c24706a5c93 = $(`<div id="html_90df3ef75dd3467789d89c24706a5c93" style="width: 100.0%; height: 100.0%;">TRUNG LY: 16</div>`)[0];
+            popup_463cea59b47c4fae83ed1cc130c8dc89.setContent(html_90df3ef75dd3467789d89c24706a5c93);
+        
+
+        marker_7967bb87088448dd90ce084ef6a728d9.bindPopup(popup_463cea59b47c4fae83ed1cc130c8dc89)
+        ;
+
+        
+    
+    
+            var marker_3f0e99136d154fbe8ae738093da3774a = L.marker(
+                [38.211404, -84.282715],
+                {}
+            ).addTo(map_b04de639d98e457d91a57321d38a31ee);
+        
+    
+        var popup_d65f95e21e454ed0aed0db7563200e80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6374ed6375cd4268ba1370cfd4039435 = $(`<div id="html_6374ed6375cd4268ba1370cfd4039435" style="width: 100.0%; height: 100.0%;">GREGORY KLOCH: 16</div>`)[0];
+            popup_d65f95e21e454ed0aed0db7563200e80.setContent(html_6374ed6375cd4268ba1370cfd4039435);
+        
+
+        marker_3f0e99136d154fbe8ae738093da3774a.bindPopup(popup_d65f95e21e454ed0aed0db7563200e80)
+        ;
+
+        
+    
+</script>

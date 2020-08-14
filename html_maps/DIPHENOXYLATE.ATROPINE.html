@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f3a07e03a34744fcb844713dda3371b6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f3a07e03a34744fcb844713dda3371b6" ></div>
+        
+</body>
+<script>    
+    
+            var map_f3a07e03a34744fcb844713dda3371b6 = L.map(
+                "map_f3a07e03a34744fcb844713dda3371b6",
+                {
+                    center: [40.693943, -73.98588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    defaultZoomStart: -5,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ce763353f2c42aa93d78517abbff492 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f3a07e03a34744fcb844713dda3371b6);
+        
+    
+            var marker_497866598bdd4c66b98899e32b08df50 = L.marker(
+                [33.3060918, -96.5385097],
+                {}
+            ).addTo(map_f3a07e03a34744fcb844713dda3371b6);
+        
+    
+        var popup_998d3fa7e1794303a7dcd987e24e45db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c02fc5f83ced41a6b69bc2b353d4d15f = $(`<div id="html_c02fc5f83ced41a6b69bc2b353d4d15f" style="width: 100.0%; height: 100.0%;">NITHYA PALANISAMY: 11</div>`)[0];
+            popup_998d3fa7e1794303a7dcd987e24e45db.setContent(html_c02fc5f83ced41a6b69bc2b353d4d15f);
+        
+
+        marker_497866598bdd4c66b98899e32b08df50.bindPopup(popup_998d3fa7e1794303a7dcd987e24e45db)
+        ;
+
+        
+    
+    
+            var marker_e73dbabd12244c49bd3d74d2a6c9074e = L.marker(
+                [41.6043185, -72.550945],
+                {}
+            ).addTo(map_f3a07e03a34744fcb844713dda3371b6);
+        
+    
+        var popup_d4457355135045cc86e218d75cdf811b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13d4bab3d7eb425cae5e6b3d5211dfd7 = $(`<div id="html_13d4bab3d7eb425cae5e6b3d5211dfd7" style="width: 100.0%; height: 100.0%;">RICHARD WHITEHEAD: 16</div>`)[0];
+            popup_d4457355135045cc86e218d75cdf811b.setContent(html_13d4bab3d7eb425cae5e6b3d5211dfd7);
+        
+
+        marker_e73dbabd12244c49bd3d74d2a6c9074e.bindPopup(popup_d4457355135045cc86e218d75cdf811b)
+        ;
+
+        
+    
+</script>
