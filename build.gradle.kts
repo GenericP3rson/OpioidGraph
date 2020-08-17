@@ -88,6 +88,20 @@ tasks {
         description = "Runs gsql to create a schema"
     }
 
+    register<GsqlTask>("createNewSchema") {
+        scriptPath = "schema/updated_schema.gsql"
+        useGlobal = true
+        group = schemaGroup
+        description = "Runs gsql to create a schema"
+    }
+
+    register<GsqlTask>("createNewSchema2") {
+        scriptPath = "schema/updated2_schema.gsql"
+        useGlobal = true
+        group = schemaGroup
+        description = "Runs gsql to create a schema"
+    }
+
     register<GsqlTask>("createBigSchema") {
         scriptPath = "schema/bigSchema.gsql"
         useGlobal = true
@@ -147,6 +161,54 @@ tasks {
             httpConfig.request.uri.setQuery(
             mapOf(
             "tag" to "loadData",
+            "filename" to "f1",
+            "sep" to ",",
+            "eol" to "\n"
+            )
+            )
+            httpConfig.request.setContentType("text/csv")
+            val stream = File("data/prescriber-info.csv").inputStream()
+            httpConfig.request.setBody(stream)
+        }
+    }
+
+    register<GsqlTask>("createLoadNewData"){
+        scriptPath = "load/loadNewData.gsql"
+        group = loadingGroup
+        description = "Loads our data"
+    }
+    register<HttpTask>("loadNewData") {
+        group = loadingGroup
+        description = "Load data via the REST++ endpoint"
+        post { httpConfig ->
+            httpConfig.request.uri.setPath("/ddl/${gGraphName}")
+            httpConfig.request.uri.setQuery(
+            mapOf(
+            "tag" to "loadNewData",
+            "filename" to "f1",
+            "sep" to ",",
+            "eol" to "\n"
+            )
+            )
+            httpConfig.request.setContentType("text/csv")
+            val stream = File("data/prescriber-info.csv").inputStream()
+            httpConfig.request.setBody(stream)
+        }
+    }
+
+    register<GsqlTask>("createLoadNewData2"){
+        scriptPath = "load/loadNewData2.gsql"
+        group = loadingGroup
+        description = "Loads our data"
+    }
+    register<HttpTask>("loadNewData2") {
+        group = loadingGroup
+        description = "Load data via the REST++ endpoint"
+        post { httpConfig ->
+            httpConfig.request.uri.setPath("/ddl/${gGraphName}")
+            httpConfig.request.uri.setQuery(
+            mapOf(
+            "tag" to "loadNewData2",
             "filename" to "f1",
             "sep" to ",",
             "eol" to "\n"

@@ -1,0 +1,25 @@
+CREATE VERTEX _Doctor(PRIMARY_ID npi_id STRING, gender STRING) with primary_id_as_attribute="true"
+
+// CREATE VERTEX _Gender(PRIMARY_ID gender STRING) with primary_id_as_attribute="true"
+
+CREATE VERTEX _State(PRIMARY_ID state STRING) with primary_id_as_attribute="true"
+
+CREATE VERTEX _Credentials(PRIMARY_ID cred STRING) with primary_id_as_attribute="true"
+
+CREATE VERTEX _Specialty(PRIMARY_ID spec STRING) with primary_id_as_attribute="true"
+
+// CREATE VERTEX _Opioid_Perscriber(PRIMARY_ID perscribes INT) with primary_id_as_attribute="true"
+
+CREATE VERTEX _Medicine(PRIMARY_ID name STRING) with primary_id_as_attribute="true"
+
+
+
+CREATE UNDIRECTED EDGE _NPI_STATE(FROM _Doctor, To _State)
+
+CREATE UNDIRECTED EDGE _NPI_CRED(FROM _Doctor, To _Credentials)
+
+CREATE UNDIRECTED EDGE _CRED_SPEC(FROM _Credentials, To _Specialty)
+
+CREATE UNDIRECTED EDGE _NPI_MEDICINE(FROM _Doctor, To _Medicine, amount INT)
+
+CREATE GRAPH @graphname@(_Doctor, _State, _Credentials, _Specialty, _Medicine, _NPI_STATE, _NPI_CRED, _CRED_SPEC, _NPI_MEDICINE)
